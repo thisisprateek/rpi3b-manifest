@@ -8,7 +8,7 @@
     <remote fetch="git://github.com/jumpnow" name="meta-rpi"/>
 
     <project name="poky.git" remote="poky" revision="sumo"/>
-    <project name="meta-openembedded" path="layers/meta-openembedded" remote="meta-qt5" revision="sumo"/>
+    <project name="meta-openembedded" path="layers/meta-openembedded" remote="openembedded" revision="sumo"/>
     <project name="meta-qt5" path="layers/meta-qt5" remote="meta-qt5" revision="sumo"/>
     <project name="meta-security" path="layers/meta-security" remote="meta-security" revision="sumo"/>
     <project name="meta-raspberrypi" path="layers/meta-raspberrypi" remote="meta-raspberrypi" revision="sumo"/>
