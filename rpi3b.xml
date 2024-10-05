@@ -1,16 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <remote fetch="git://git.yoctoproject.org" name="poky"/>
+    <remote fetch="git://git.yoctoproject.org" name="yocto-project"/>
     <remote fetch="git://git.openembedded.org" name="openembedded"/>
     <remote fetch="https://github.com/meta-qt5" name="meta-qt5"/>
-    <remote fetch="git://git.yoctoproject.org/meta-security" name="meta-security"/>
-    <remote fetch="git://git.yoctoproject.org/meta-raspberrypi" name="meta-raspberrypi"/>
     <remote fetch="git://github.com/jumpnow" name="meta-rpi"/>
 
-    <project name="poky.git" remote="poky" revision="sumo"/>
+    <project name="poky.git" remote="yocto-project" revision="sumo"/>
     <project name="meta-openembedded" path="layers/meta-openembedded" remote="openembedded" revision="sumo"/>
     <project name="meta-qt5" path="layers/meta-qt5" remote="meta-qt5" revision="sumo"/>
-    <project name="meta-security" path="layers/meta-security" remote="meta-security" revision="sumo"/>
-    <project name="meta-raspberrypi" path="layers/meta-raspberrypi" remote="meta-raspberrypi" revision="sumo"/>
+    <project name="meta-security.git" path="layers/meta-security" remote="yocto-project" revision="sumo"/>
+    <project name="meta-raspberrypi.git" path="layers/meta-raspberrypi" remote="yocto-project" revision="sumo"/>
     <project name="meta-rpi.git" path="layers/meta-rpi" remote="meta-rpi" revision="sumo"/>
 </manifest>
