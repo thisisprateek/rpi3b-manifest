@@ -5,10 +5,10 @@
     <remote fetch="https://github.com/meta-qt5" name="meta-qt5"/>
     <remote fetch="https://github.com/jumpnow" name="meta-rpi"/>
 
-    <project name="poky" remote="yocto-project" revision="sumo"/>
-    <project name="meta-openembedded" path="layers/meta-openembedded" remote="openembedded" revision="sumo"/>
-    <project name="meta-qt5" path="layers/meta-qt5" remote="meta-qt5" revision="sumo"/>
-    <project name="meta-security" path="layers/meta-security" remote="yocto-project" revision="sumo"/>
-    <project name="meta-raspberrypi" path="layers/meta-raspberrypi" remote="yocto-project" revision="sumo"/>
-    <project name="meta-rpi" path="layers/meta-rpi" remote="meta-rpi" revision="sumo"/>
+    <project name="poky" path="poky-sumo" remote="yocto-project" revision="sumo"/>
+    <project name="meta-openembedded" path="poky-sumo/meta-openembedded" remote="openembedded" revision="sumo"/>
+    <project name="meta-qt5" path="poky-sumo/meta-qt5" remote="meta-qt5" revision="sumo"/>
+    <project name="meta-security" path="poky-sumo/meta-security" remote="yocto-project" revision="sumo"/>
+    <project name="meta-raspberrypi" path="poky-sumo/meta-raspberrypi" remote="yocto-project" revision="sumo"/>
+    <project name="meta-rpi" path="poky-sumo/meta-rpi" remote="meta-rpi" revision="sumo"/>
 </manifest>
