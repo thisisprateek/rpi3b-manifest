@@ -8,7 +8,7 @@
     <project name="poky.git" remote="yocto-project" revision="sumo"/>
     <project name="meta-openembedded" path="layers/meta-openembedded" remote="openembedded" revision="sumo"/>
     <project name="meta-qt5" path="layers/meta-qt5" remote="meta-qt5" revision="sumo"/>
-    <project name="meta-security.git" path="layers/meta-security" remote="yocto-project" revision="sumo"/>
-    <project name="meta-raspberrypi.git" path="layers/meta-raspberrypi" remote="yocto-project" revision="sumo"/>
-    <project name="meta-rpi.git" path="layers/meta-rpi" remote="meta-rpi" revision="sumo"/>
+    <project name="meta-security" path="layers/meta-security" remote="yocto-project" revision="sumo"/>
+    <project name="meta-raspberrypi" path="layers/meta-raspberrypi" remote="yocto-project" revision="sumo"/>
+    <project name="meta-rpi" path="layers/meta-rpi" remote="meta-rpi" revision="sumo"/>
 </manifest>
